@@ -1,0 +1,18 @@
+--- 
+title: "Investigating the influence of tidal non-linearities on material transport and contaminated sediment for diadromous fish habitat in a tidal river system"
+author: "Vanessa Mahan"
+committee: "Dr. Kimberly Huguenard, Dr. Kyle McKay, Dr. Gayle Zydlewski, Dr. Damien Brady, Justin Stevens M.S."
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "This is the draft dissertation for Vanessa Mahan. This draft remains incomplete and analyses are unfinished."
+---
+
+## Abstract
+
+## Acknowledgements

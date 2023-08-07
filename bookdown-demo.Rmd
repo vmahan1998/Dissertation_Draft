@@ -1,0 +1,148 @@
+--- 
+title: "Investigating the influence of tidal non-linearities on material transport and contaminated sediment for diadromous fish habitat in a tidal river system"
+author: "Vanessa Mahan"
+committee: "Dr. Kimberly Huguenard, Dr. Kyle McKay, Dr. Gayle Zydlewski, Dr. Damien Brady, Justin Stevens M.S."
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "This is the draft dissertation for Vanessa Mahan. This draft remains incomplete and analyses are unfinished."
+---
+
+## Abstract
+
+## Acknowledgements
+
+<!--chapter:end:index.Rmd-->
+
+# Introduction {#intro}
+
+Introduce the research topic: Investigating the influence of tidal non-linearities on material transport and contaminated sediment for diadromous fish habitat in a tidal river system.
+
+Present the overall research objective: To understand the implications of tidal non-linearities for material transport, including contaminated sediment, and their potential impacts on diadromous fish habitat in the river system.
+
+Provide an overview of the specific research tasks involved in the study, including data collection, development of habitat models, statistical analyses
+
+<!--chapter:end:01-intro.Rmd-->
+
+# Literature
+
+
+<!--chapter:end:02-lit_review.Rmd-->
+
+# Tidal Non-Linearities and Material Transport
+
+## Abstract
+
+## Introduction
+-Introduce the research objective: Investigating the impact of tidal non-linearities on material transport using field observations.
+
+-Provide context on the significance of studying tidal non-linearities and their potential influence on sediment dynamics in estuarine environments.
+
+-State the specific tasks involved in the study, including the use of ADCPs for current velocity measurements, calibration of acoustic backscatter measurements to suspended sediment concentrations, and the application of wavelet analysis to understand M4 oscillations and their contribution to subtidal flows and material transport during wet and dry seasons.
+
+## Methods
+### Study Site
+- geographic location
+- short background on tidal conditions in area
+- why site was selected 
+
+### Instrumentation
+- ADCPs were deployed
+  - coordinates/ image
+- eurkea probe 
+  - what it is and how it's used
+- nisken bottle
+  what it is and how it's used
+
+### Sampling Design
+- two 12 hour sampling dates (sample every hour) or 10 sampling dates (1x a day at specific tidal events)?
+- three 1.5 liter samples were taken at surface and bottom depths at the locations of each ADCP for each sampling event using the nisken bottle.
+
+### Analyses
+- suspended sediment samples processed in the lab using vacuum filtering and oven drying process to calculate the weight of suspended sediments in each water sample. This process also gave the organic/inorganic ratio for each sediment sample.
+- wavelet analysis of ADCP data to understand M4 oscillations and their contribution to subtidal flows and material transport during wet and dry seasons
+
+### Calibration
+- Methods for calibrating acoustic backscatter from ADCPs to suspended sediment concentration based on the field samples collected.
+  - may have to correct for spread, frequency and bin depth? 
+  - equations used?
+
+## Results
+- display results for suspended sediment samples
+  - graph inorganic/organic split, total concentration
+- Wavelet analysis results
+  - overtides and barotropic tides?
+- calibration results
+  - graph & regression function
+
+## Validation
+- w/ eureka probe Turbidity data
+  - graph calibration results with turbidity
+  
+## Discussion
+
+## Conclusion
+
+## Tables and Figures
+
+<!--chapter:end:03-tidal_material_transport.Rmd-->
+
+# Habitat Models for Diadromous Fish in the Northeast United States
+
+## Abstract
+
+## Introduction
+
+## Methods
+
+## Results
+
+## Discussion
+
+## Conclusion
+
+## Tables and Figures
+
+<!--chapter:end:04-habitat_models.Rmd-->
+
+# Implications of Tidal Non-Linearities for the Transportation of Contaminated Sediment and their Potential Impacts on Diadromous Fish Habitat
+
+## Abstract
+
+## Introduction
+
+## Methods
+
+## Results
+
+## Discussion
+
+## Conclusion
+
+## Tables and Figures
+
+
+
+<!--chapter:end:05-contaminants.Rmd-->
+
+# Implications of Tidal Non-Linearities for the Transportation of Contaminated Sediment and their Potential Impacts on Diadromous Fish Habitat in the Penobscot River.
+
+
+<!--chapter:end:06-conclusion.Rmd-->
+
+# Implications of Tidal Non-Linearities for the Transportation of Contaminated Sediment and their Potential Impacts on Diadromous Fish Habitat in the Penobscot River.
+
+
+<!--chapter:end:07-appendices.Rmd-->
+
+`r if (knitr:::is_html_output()) '
+# References {-}
+'`
+
+<!--chapter:end:08-references.Rmd-->
+

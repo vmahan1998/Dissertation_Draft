@@ -1,0 +1,7 @@
+# Introduction {#intro}
+
+Introduce the research topic: Investigating the influence of tidal non-linearities on material transport and contaminated sediment for diadromous fish habitat in a tidal river system.
+
+Present the overall research objective: To understand the implications of tidal non-linearities for material transport, including contaminated sediment, and their potential impacts on diadromous fish habitat in the river system.
+
+Provide an overview of the specific research tasks involved in the study, including data collection, development of habitat models, statistical analyses

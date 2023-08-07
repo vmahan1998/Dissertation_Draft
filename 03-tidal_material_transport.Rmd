@@ -1,0 +1,83 @@
+# Tidal Non-Linearities and Material Transport
+
+## Abstract
+
+## Introduction
+
+- introduce estuary 
+
+An estuary is a coastal area where freshwater from rivers and streams meets and mixes with saltwater from the ocean. It is a dynamic and ecologically diverse environment characterized by fluctuating water levels due to tidal influences. Estuaries serve as critical transitional zones between land and sea, facilitating the exchange of nutrients, sediments, and organisms, and they are greatly influenced by tidal processes, including tidal non-linearities, which play a vital role in shaping sediment transport and distribution within these unique ecosystems.
+
+-Introduce the research objective: Investigating the impact of tidal non-linearities on material transport using field observations.
+
+Tides are composed of various tidal harmonics, each representing a specific tidal frequency and amplitude. These harmonics can be classified into different tidal constituents, such as the dominant semi-diurnal (twice-daily) components M2 and S2, the diurnal (once-daily) components K1 and O1, and others with lower amplitudes (Valle-Levinson, 2022). 
+
+- What are tidal nonlinearities?
+Tidal nonlinearities refer to the deviations from the simple sinusoidal behavior of tidal patterns that are typically characterized by regular, predictable, and harmonic oscillations. In a perfectly linear tidal system, tidal waves would exhibit a strictly sinusoidal pattern, with a constant period and amplitude. 
+
+- What causes them & when do they happen, types?
+
+Nonlinear interactions in tidal systems occur year-round and are not specifically tied to particular seasons, but other environmental factors like discharge, atmospheric conditions, and position of the Earth's axis can affect local tidal patterns and cause variations in the amplitudes and phases of individual tidal constituents.
+
+Non-linear interactions arise when the dominant tidal constituents in barotropic tides interact non-linearly with each other and with other tidal components, resulting in variations from the expected linear behavior (citation). 
+
+- overtides?
+
+These interactions can lead to the emergence of overtides, as well as other complexities in tidal patterns. Overtides are higher-order harmonics that emerge from the nonlinear interactions of primary tidal constituents, resulting in additional tidal components with frequencies that are the sum or difference of the original constituents.
+
+- Provide context on the significance of studying tidal non-linearities and their potential influence on sediment dynamics in estuarine environments.
+
+Understanding non-linear tidal interactions in estuarine environments is essential for predicting sediment transport patterns. These interactions can influence sediment resuspension, deposition, and distribution, shaping the estuarine landscape and impacting water quality, habitat health, and coastal erosion/accretion. Studying these complexities is vital for effective sediment management and estuarine ecosystem conservation.
+
+- State the specific tasks involved in the study, including the use of ADCPs for current velocity measurements, calibration of acoustic backscatter measurements to suspended sediment concentrations, and the application of wavelet analysis to understand M4 oscillations and their contribution to subtidal flows and material transport during wet and dry seasons.
+
+In this study, we aim to investigate the impact of tidal non-linearities on material transport in estuarine environments using field observations. To achieve this objective, we will deploy two Acoustic Doppler Current Profilers (ADCPs) near Bangor over 30 days during both the dry and wet seasons. These ADCPs will allow us to quantify barotropic overtides and overtides in current velocities, shedding light on the complex interactions among tidal constituents. Additionally, we will calibrate measurements of turbidity obtained from acoustic backscatter with suspended sediment concentrations using water samples, enabling us to understand how sediment transport is influenced by tidal non-linearities. Employing Wavelet analysis, we will investigate how the oscillations, particularly the M4 overtides, contribute to subtidal flows and material transport dynamics during different seasons. By delving into these research tasks, we seek to enhance our understanding of the intricate relationships between tidal non-linearities and sediment transport, thereby contributing valuable insights to estuarine ecosystem management and coastal resilience.
+
+## Methods
+### Study Site
+- geographic location
+- short background on tidal conditions in area (non-linearities)
+- why site was selected (sediment relation?)
+
+### Instrumentation
+- ADCPs were deployed
+  - coordinates/ image
+- eurkea probe 
+  - what it is and how it's used
+- nisken bottle
+  what it is and how it's used
+
+### Sampling Design
+
+A harmonic analysis was ran using the T-Tide in MATLab to understand the diurnal effects in study area to determine sampling time. Harmonic analysis showed that the diurnal tide effects are significant in the study area during the time of deployment and because of this, two 12 hour sampling dates were chosen where sampling will take place every hour to account for the rising and falling tide phase of the diurnal high tide during the dry and wet seasons. This sampling design will allow us to capture the seasonal diurnal effects on the tide and suspended sediment in the Penobscot River estuarythroughout the ADCP deployment. 
+
+- Harmonic Analysis results?
+
+During each of these sampling events, suspended sediment samples will be collected using the nisken bottle, and turbidity, salinity, depth, and temperature measurements will be recorded using the eureka probe. Three samples will be taken at the surface, middle, and bottom of the water column for each location of the ADCPs for a total of nine samples at each location for each sampling event. This will create a vertical transect profile of the water column showing the suspended sediment concentrations which will be used to calibrate the suspended sediment concentrations to the ADCP acoustic backscatter measurements.
+
+### Analyses
+- suspended sediment samples processed in the lab using vacuum filtering and oven drying process to calculate the weight of suspended sediments in each water sample. This process also gave the organic/inorganic ratio for each sediment sample.
+- wavelet analysis of ADCP data to understand M4 oscillations and their contribution to subtidal flows and material transport during wet and dry seasons
+
+### Calibration
+- Methods for calibrating acoustic backscatter from ADCPs to suspended sediment concentration based on the field samples collected.
+  - may have to correct for spread, frequency and bin depth? 
+  - equations used?
+
+## Results
+- display results for suspended sediment samples
+  - graph inorganic/organic split, total concentration
+- Wavelet analysis results
+  - overtides and barotropic tides?
+- calibration results
+  - graph & regression function
+
+## Validation
+- w/ eureka probe Turbidity data
+  - graph calibration results with turbidity
+  
+## Discussion
+
+## Conclusion
+
+## Tables and Figures
