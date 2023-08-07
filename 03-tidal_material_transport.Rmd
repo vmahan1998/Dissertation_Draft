@@ -42,14 +42,26 @@ In this study, we aim to investigate the impact of tidal non-linearities on mate
 ### Instrumentation
 - ADCPs were deployed
   - coordinates/ image
+  
+In this study, Acoustic Doppler Current Profilers (ADCP) were employed as a key instrument to determine the speed and direction of water movement at various depths and CTD profilers were utilized to measure conductivity, temperature, and depth. Two mooring ADCPs were deployed from August 14th, 2023 - November 10th, 2023 simultaneously with CTD sensors along the Penobscot River in Bangor, Maine. ADCP 1 is deployed upstream of ADCP 2 where they sit at depths of -5 meters and -10 meters respectively. CTD 1 is deployed upstream of ADCP 1. CTD 2 is deployed between ADCP 1 and ADCP 2. CTD 3 is deployed downstream of ADCP 2.
+
+- describe location with image and placement
+
+The primary focus of the ADCP measurements was to quantify barotropic overtides and overtides in current velocities, enabling the exploration of complex interactions among tidal constituents. Additionally, the ADCPs were instrumental in calibrating measurements of turbidity using acoustic backscatter. By relating turbidity data to suspended sediment concentrations, this non-intrusive approach offered valuable insights into the dynamics of material transport in estuarine environments. The combination of ADCP current velocity measurements and acoustic backscatter analyses played a crucial role in investigating the impact of tidal non-linearities on sediment dynamics, contributing essential knowledge to estuarine ecosystem management and coastal resilience.
+
+- CTD
+
+
 - eurkea probe 
   - what it is and how it's used
+  
+  
 - nisken bottle
   what it is and how it's used
 
 ### Sampling Design
 
-A harmonic analysis was ran using the T-Tide in MATLab to understand the diurnal effects in study area to determine sampling time. Harmonic analysis showed that the diurnal tide effects are significant in the study area during the time of deployment and because of this, two 12 hour sampling dates were chosen where sampling will take place every hour to account for the rising and falling tide phase of the diurnal high tide during the dry and wet seasons. This sampling design will allow us to capture the seasonal diurnal effects on the tide and suspended sediment in the Penobscot River estuarythroughout the ADCP deployment. 
+A harmonic analysis was ran using the T-Tide in MATLab to understand the diurnal effects in study area to determine sampling time. Harmonic analysis showed that the diurnal tide effects are significant in the study area during the time of deployment and because of this, two sampling dates were chosen where sampling will take place every hour for 12 hours to account for the rising and falling tide phase of the diurnal high tide during the dry and wet seasons. This sampling design will allow us to capture the seasonal diurnal effects on the tide and suspended sediment in the Penobscot River estuary throughout the ADCP deployment. 
 
 - Harmonic Analysis results?
 
